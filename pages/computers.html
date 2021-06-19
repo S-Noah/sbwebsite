@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>S&B - Computers</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/computers.css">
+    <link rel="icon" href="../images/logo2.ico">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rubik:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <header>
+    <a href="../index.html"><img src="../images/logo2.png" alt="S&B Logo"></a>
+    <h1>SARGE <b id="amp">&</b> BARRY</h1>
+    <h2>COMPUTERS</h2>
+    <div>
+        <a href="computers.html"><button>Computers</button></a>
+        <a href="./websites.html"><button>Websites</button></a>
+        <a href="./programs.html"><button>Programs</button></a>
+        <a href="./aboutus.html"><button>About Us</button></a>
+    </div>
+  </header>
+  <body>
+      <section>
+        <p id="pc-desc">S&B Computers are built to last. We ensure quality and preformance in every machine. Our computers come in 3 categories. Home, Gaming, and Business computers.</p>
+        <div class="panel" id="pre-designed">
+          <h1>Pre-Designed Builds</h1>
+          <p>Each category has 2 tiers. The S-Tier is more refined, and has stronger parts, the B-Tier is a less powerful, and more affordable option.</p>
+          <h3>Home Builds</h3>
+          <p>The Home Builds at S&B are the perfect fit for any family computer. They allow general use at an affordable cost. </p>
+          <p>The S-Tier Home Build has all the speed and power a family computer needs.</p>
+          <p>The B-Tier Home Build is a more humble machine. Best bang for your buck.</p>
+          <h3>Gaming Builds</h3>
+          <p>The gaming builds are the perfect ends of preformance for any gamer.</p>
+          <h3>Business Builds</h3>
+
+          <h1>Order a Pre-Designed Build</h1>
+          <div class="custom-select">
+            <select>
+              <option value="0">Build Type</option>
+              <option value="1">Home</option>
+              <option value="2">Gaming</option>
+              <option value="3">Business</option>
+            </select><br>
+            <select>
+              <option value="0">Tier</option>
+              <option value="1">S-Tier</option>
+              <option value="2">B-Tier</option>
+            </select><br>
+            <input type="submit" value="Add to Cart">
+          </div>
+        </div>
+        <div class="panel" id="custom">
+          <h1>Custom Computers</h1>
+          <p>S&B also offers custom computer's which are individually designed and tailored to each customer. Every part used, and the style is up to the customer.</p>
+          <h1>Inquire about a Custom Build</h1>
+          <form>
+            <label for="fname">Full Name</label><br>
+            <input type="text" id="fname" value="John"><br>
+
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" value="Doe"><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" value="Jdoe@example.com"><br>
+
+            <lable for="tel-num">Phone Number</lable><br>
+            <input type="tel" id="tel-num" value="(012)-345-6789"><br>
+
+            <label for="build-type">Build Type</label><br>
+            <select id="build-type">
+              <option value="0">Build Type</option>
+              <option value="1">Home</option>
+              <option value="2">Gaming</option>
+              <option value="3">Business</option>
+            </select><br>
+
+            <label for="desc">Description</label><br>
+            <input type="text" id="desc" value="Optional"><br>
+
+            <input type="submit" id="submit-button" value="Submit">
+
+
+            
+            
+          </form>
+        </div>
+      </section>
+  </body>
+</html> 

@@ -1,0 +1,26 @@
+#pre-designed {
+    float: left;
+}
+
+#custom {
+  float: right;
+  margin-left: 1em;
+}
+#pc-desc {
+  width: 59em;
+  background-color: black;
+  color: white;
+  padding: 0.25em;
+  border: 0.15em solid #ebcb9f;
+  margin-bottom: 1.5em;
+  text-align: center;
+  margin: inherit auto;
+}
+.panel {
+  border: .25em solid black;
+  background-color: #ebcb9f;
+  height: 25em;
+}
+section {
+  padding-top: 2em;
+}

@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nested {
+    padding-left: 3%;
+
+    list-style:disc;
+}
+html {
+    background-color: #3e3e3e;
+}
+body {
+    width: 60em;
+    margin: 0 auto;
+}
+header {
+    width: auto;
+    max-width: 60em;
+    margin: 0 auto;
+
+    background-color: #3e3e3e;
+    border-bottom: 0.5em solid black;
+}
+header img {
+    width: 13em;
+
+    padding-top: 2em;
+
+    float: left;
+    
+    
+}
+header h1 {
+
+    width: fit-content;
+    
+    margin: 0 auto;
+    margin-bottom: 0.2em;
+    padding-top: 0.5em;
+
+    color: #ebcb9f;
+    
+    text-align: center;
+    font-size: 450%;
+    font-family: "Norwester", system-ui;
+    text-shadow: 4px  4px 8px black;
+}
+header h2 {
+    width: fit-content;
+    display: block;
+
+    margin: 0 auto;
+    margin-bottom: 0.4em;
+
+    padding: 0.25em 1em;
+
+    text-align: center;
+
+    color: white;
+    background-color: black; 
+    
+    font-size: 200%;
+    font-family: 'Rubik', sans-serif; 
+}
+#amp {
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
+header div {
+    width: fit-content;
+
+    margin: 0 auto;
+
+    padding-bottom: .5em;
+
+    text-align: center;
+    
+    
+}
+header div button {
+    padding: 1em 1.5em;
+
+    color: black;
+    background-color: #ebcb9f;
+    border: .15em solid black;
+
+    font-size: 90%;
+    font-family: "Norwester", system-ui;
+    font-weight: bolder;
+    
+}
+button:hover {
+    color: #ebcb9f;
+    background-color: black;
+    border: .15em solid #ebcb9f;
+    
+}
+
+p {
+    width: 29em;
+}
