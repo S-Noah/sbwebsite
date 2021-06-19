@@ -37,24 +37,25 @@ header h1 {
     width: fit-content;
     
     margin: 0 auto;
-    margin-bottom: 0.2em;
+    margin-bottom: 0em;
     padding-top: 0.5em;
 
     color: #ebcb9f;
     
     text-align: center;
-    font-size: 450%;
+    font-size: 440%;
     font-family: "Norwester", system-ui;
     text-shadow: 4px  4px 8px black;
 }
 header h2 {
-    width: fit-content;
+    width: auto;
+    max-width: 12em;
     display: block;
 
     margin: 0 auto;
     margin-bottom: 0.4em;
 
-    padding: 0.25em 1em;
+    padding: 0.15em 1em;
 
     text-align: center;
 
@@ -72,8 +73,7 @@ header div {
     width: fit-content;
 
     margin: 0 auto;
-
-    padding-bottom: .5em;
+    margin-bottom: 0.7em;
 
     text-align: center;
     
